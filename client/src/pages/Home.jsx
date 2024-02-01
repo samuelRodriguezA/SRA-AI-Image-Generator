@@ -26,7 +26,7 @@ const Home = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('https://sra-ai-image-generator-backend.vercel.app/api/v1/post', {
+      const response = await fetch('https://image-generator-backend-ne64.onrender.com/api/v1/post', {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
